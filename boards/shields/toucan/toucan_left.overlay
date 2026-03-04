@@ -28,10 +28,6 @@ nice_view_spi: &spi0 {
    cs-gpios = <&gpio1 11 GPIO_ACTIVE_HIGH>;
 };
 
-&xiao_i2c {
-    status = "disabled";
-};
-
 &kscan0 {
     col-gpios
     = <&gpio0 9 GPIO_ACTIVE_HIGH>
