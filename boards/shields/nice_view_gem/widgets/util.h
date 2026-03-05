@@ -3,10 +3,10 @@
 #include <lvgl.h>
 #include <zmk/endpoints.h>
 
-#define SCREEN_WIDTH 144
-#define SCREEN_HEIGHT 168
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 128
 
-#define BUFFER_SIZE 168
+#define BUFFER_SIZE 128
 #define BUFFER_OFFSET_MIDDLE 0
 #define BUFFER_OFFSET_BOTTOM 0
 
